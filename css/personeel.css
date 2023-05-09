@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    background-color: rgb(255, 242, 219);
+    /* max-width: 100%; */
+    margin: auto;
+}
+
+footer{
+    font-size: 80%;
+    text-align: left;
+}
+header{
+    padding: 20px;
+}
+
+p{
+    padding-top: 20px;
+}
+.a{
+    float: right;
+}
+.img{
+    max-width: 100%;
+}
+.li{
+    font-weight: bold;
+}
+h1{
+    color: red;
+
+}
+input{
+    background-color: white;
+}
+button{
+
+    background-color: rgb(226, 223, 223);
+}

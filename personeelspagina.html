@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Robots" content="All">
+    <meta name="author" content="">
+    <meta name="copyright" content="Mario Bressanone">
+    <meta name="description" content="Onze chefs bereiden tradionele pizza's met dunne bodem en
+                                         klassieke pastagerechten. Ook bezorging aan huis.">
+    <meta name="keywords" content="pizza, pasta, cursus, workshop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/personeel.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/tabel.css" />
+    <script src="Javascript/mario.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Mario's pizza</title>
+</head>
+
+<body>
+    <header> </header>
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="pizzas.html">Pizza's</a>
+        <a href="pastas.html">Pasta's</a>
+        <a href="bestel.html">Bestellen</a>
+        <a href="cursus.html">Cursus</a>
+        <a href="overons.html">Over ons</a>
+        <a class="active" href="login.html">Login</a>
+    </nav>
+    <br />
+    <div>
+        <article>
+            <h1>personeelspagina</h1>
+            <p>Berekenen van de kostprijs van een pizza</p>
+            <p>Let op, een pizza van 35 cm is 1,96 keer zo groot als de piza van 25 cm</p>
+            <table >
+                <tr>
+                    <th> Ingredient</th>
+                    <th> Prijs per kilo</th>
+                    <th> Nodig voor pizza 25 cm (in gram)</th>
+                    <th> Pizza (25 centimeter)</th>
+                    <th> Pizza (35 centimeter)</th>
+                </tr>
+                <tr>
+                    <td> <input id="ing_1" class="tabel1" type="text" required /> </td>
+                    <td> <input id="prk_1" class="tabel1" type="number" required /> </td>
+                    <td> <input id="nd_1" class="tabel1" type="number" required /> </td>
+                    <td> <input id="p2_1" class="tabel1" type="number" required readonly /> </td>
+                    <td> <input id="p3_1" class="tabel1" type="number" required readonly /> </td>
+                </tr>
+                <tr>
+                    <td> <input id="ing_2" class="tabel1" type="text" required /> </td>
+                    <td> <input id="prk_2" class="tabel1" type="number" required /> </td>
+                    <td> <input id="nd_2" class="tabel1" type="number" required /> </td>
+                    <td> <input id="p2_2" class="tabel1" type="number" required readonly /> </td>
+                    <td> <input id="p3_2" class="tabel1" type="number" required readonly /> </td>
+                </tr>
+                <tr>
+                    <td> <input id="ing_3" class="tabel1" type="text" required /> </td>
+                    <td> <input id="prk_3" class="tabel1" type="number" required /> </td>
+                    <td> <input id="nd_3" class="tabel1" type="number" required /> </td>
+                    <td> <input id="p2_3" class="tabel1" type="number" required readonly /> </td>
+                    <td> <input id="p3_3" class="tabel1" type="number" required readonly /> </td>
+                </tr>
+                <tr>
+                    <td> <input id="ing_4" class="tabel1" type="text" required /> </td>
+                    <td> <input id="prk_4" class="tabel1" type="number" required /> </td>
+                    <td> <input id="nd_4" class="tabel1" type="number" required /> </td>
+                    <td> <input id="p2_4" class="tabel1" type="number" required readonly /> </td>
+                    <td> <input id="p3_4" class="tabel1" type="number" required readonly /> </td>
+                </tr>
+                <tr>
+                    <td> <input id="ing_5" class="tabel1" type="text" required /> </td>
+                    <td> <input id="prk_5" class="tabel1" type="number" required /> </td>
+                    <td> <input id="nd_5" class="tabel1" type="number" required /> </td>
+                    <td> <input id="p2_5" class="tabel1" type="number" required readonly /> </td>
+                    <td> <input id="p3_5" class="tabel1" type="number" required readonly /> </td>
+                </tr>
+                <tr>
+                    <td> <input id="ing_6" class="tabel1" type="text" required /> </td>
+                    <td> <input id="prk_6" class="tabel1" type="number" required /> </td>
+                    <td> <input id="nd_6" class="tabel1" type="number" required /> </td>
+                    <td> <input id="p2_6" class="tabel1" type="number" required readonly /> </td>
+                    <td> <input id="p3_6" class="tabel1" type="number" required readonly /> </td>
+                </tr>
+                <tr>
+                    <td> <input id="ing_7" class="tabel1" type="text" required /> </td>
+                    <td> <input id="prk_7" class="tabel1" type="number" required /> </td>
+                    <td> <input id="nd_7" class="tabel1" type="number" required /> </td>
+                    <td> <input id="p2_7" class="tabel1" type="number" required readonly /> </td>
+                    <td> <input id="p3_7" class="tabel1" type="number" required readonly /> </td>
+                </tr>
+                <tr>
+                    <td> <input id="ing_8" class="tabel1" type="text" required /> </td>
+                    <td> <input id="prk_8" class="tabel1" type="number" required /> </td>
+                    <td> <input id="nd_8" class="tabel1" type="number" required /> </td>
+                    <td> <input id="p2_8" class="tabel1" type="number" required readonly /> </td>
+                    <td> <input id="p3_8" class="tabel1" type="number" required readonly /> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="total25" class="box" type="text" placeholder="Kostprijs pizza 25cm" readonly
+                            required />
+                    </td>
+                    <td colspan="4" rowspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><input id="total35" class="box" type="text" placeholder="Kostprijs pizza 35cm" readonly
+                            required />
+                    </td>
+                </tr>
+                <!--<tr>
+                    <input name="kost2" class="table" type="text" required/>
+                </tr>-->
+                <tr>
+                    <td colspan="4">
+                        <button onclick="BerekenPrijs()" class="button">
+                            Bereken Prijs
+                        </button>
+                    </td>
+                    <td>
+                        <button onclick="Remove()" class="button">
+                            Remove
+                        </button>
+                    </td>
+                </tr>
+            </table>
+
+        </article>
+    </div>
+    <br />
+    <br />
+    <footer>
+        <p>
+            &copy; 2020-2025 Mario Bressanone
+        </p>
+    </footer>
+</body>
+
+</html>

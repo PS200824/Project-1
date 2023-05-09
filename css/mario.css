@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.imgovons{
+
+    height: 150px;
+    float: right;
+}
+.floart{
+    width: 150px;
+    height: 150px;
+    float: left;
+
+}
+
+footer{
+    font-size: 80%;
+    text-align: left;
+}
+header{
+    padding: 20px;
+}
+
+p{
+    padding-top: 20px;
+}
+.a{
+    float: right;
+}
+.img{
+    max-width: 100%;
+}
+.li{
+    font-weight: bold;
+}
+
+
+
